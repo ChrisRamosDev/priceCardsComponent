@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../favicon.ico" type="image/icon type" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Price Component with mo/yr toggle</title>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1>Pricing</h1>
+        <div class="toggle">
+          <span>Monthly</span>
+          <div class="toggler">
+            <input type="checkbox" name="toggler" value="none" id="toggler" />
+            <label for="toggler"></label>
+          </div>
+          <span>Annually</span>
+        </div>
+      </header>
+      <main>
+        <div class="card">
+          <h2>Option 1</h2>
+          <strong>$9.99</strong>
+          <small class="annual">2 months free!</small>
+          <p>Option details</p>
+          <p>Option details</p>
+          <p>Option details</p>
+          <button type="button">Learn More</button>
+        </div>
+        <div class="highlight card">
+          <h2>Option 2</h2>
+          <strong>$15.99</strong>
+          <small class="annual">2 months free!</small>
+          <p>Option details</p>
+          <p>Option details</p>
+          <p>Option details</p>
+          <button type="button" data-type="ghost">Learn More</button>
+        </div>
+        <div class="card">
+          <h2>Option 3</h2>
+          <strong>$20.99</strong>
+          <small class="annual">2 months free!</small>
+          <p>Option details</p>
+          <p>Option details</p>
+          <p>Option details</p>
+          <button type="button">Learn More</button>
+        </div>
+      </main>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
